@@ -9,6 +9,8 @@ Perfil Gitbub: [maxProgrammer](https://github.com/maxProgrammer)
 
 Suportada versão 3 de Python 
 
+Atenção => Travis-ci não funciona no archlinux e seus derivados.
+
 Para instalar:
 """
 console:
