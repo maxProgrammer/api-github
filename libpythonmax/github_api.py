@@ -13,4 +13,4 @@ def buscar_avatar(usuario):
 
 
 if __name__ == '__main__':
-    print(buscar_avatar('maxProgrammer'))
+    print("Link avatar usuário: ", buscar_avatar('maxProgrammer'))
