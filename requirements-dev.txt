@@ -2,4 +2,14 @@ flake8==3.9.2
 mccabe==0.6.1
 pycodestyle==2.7.0
 pyflakes==2.3.1
+
+#Deps for pytest
+pluggy==0.13.1
+py==1.10.0
+pyparsing==2.4.7
+attrs==21.2.0
+toml==0.10.2
+packaging==21.0
+iniconfig==1.1.1
+pytest==6.2.4
 -r requirements.txt
