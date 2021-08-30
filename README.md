@@ -6,7 +6,7 @@ Nesse curso é ensinado como contribuir com projetos de código aberto
 Perfil Gitbub: [maxProgrammer](https://github.com/maxProgrammer)
 
 [![Build Status](https://app.travis-ci.com/maxProgrammer/api-github.svg?branch=main)](https://app.travis-ci.com/maxProgrammer/api-github)
-
+[![codecov](https://codecov.io/gh/maxProgrammer/api-github/branch/main/graph/badge.svg?token=IX6Z1ZNV09)](https://codecov.io/gh/maxProgrammer/api-github)
 Suportada versão 3 de Python 
 
 Atenção => Travis-ci não funciona no archlinux e seus derivados.
