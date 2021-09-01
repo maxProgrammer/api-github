@@ -3,7 +3,7 @@ from time import sleep
 
 class Sessao:
     contador = 0
-    usuarios=[]
+    usuarios = []
 
     def salvar(self, usuario):
         Sessao.contador += 1
@@ -11,7 +11,7 @@ class Sessao:
         self.usuarios.append(usuario)
 
     def listar(self):
-       return self.usuarios
+        return self.usuarios
 
     def roll_back(self):
         self.usuarios.clear()
