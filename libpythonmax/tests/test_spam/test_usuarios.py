@@ -2,7 +2,7 @@ from libpythonmax.spam.modelos import Usuario
 
 
 def test_salvar_usuario(sessao):
-    usuario = Usuario(nome='Max',email='maxwneto.poo@gmail.com')
+    usuario = Usuario(nome='Max', email='maxwneto.poo@gmail.com')
     sessao.salvar(usuario)
     assert isinstance(usuario.id, int)
 
