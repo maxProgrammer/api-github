@@ -4,4 +4,10 @@ class EnviadorDeSpam:
         self.sessao = sessao
 
     def enviar_emails(self, rementente, assunto, corpo):
-        pass
+        for usuario in self.sessao.listar():
+            self.enviador.enviar(
+                rementente,
+                usuario.email,
+                assunto,
+                corpo
+            )
