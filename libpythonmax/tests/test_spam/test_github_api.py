@@ -4,6 +4,7 @@ import pytest as pytest
 
 from libpythonmax import github_api
 
+
 @pytest.fixture
 def avatar_url():
     resp_mock = Mock()
