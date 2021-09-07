@@ -10,6 +10,3 @@ def buscar_avatar(usuario):
     url = f'https://api.github.com/users/{usuario}'
     res = requests.get(url)
     return res.json()['avatar_url']
-
-
-
