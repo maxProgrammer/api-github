@@ -12,5 +12,4 @@ def buscar_avatar(usuario):
     return res.json()['avatar_url']
 
 
-if __name__ == '__main__':
-    print("Link avatar usuário: ", buscar_avatar('maxProgrammer'))
+
